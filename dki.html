@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDV - Vay Tiền Lãi Cực Rẻ</title>
+    <link rel="stylesheet" href="dki.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>VDV - Vay Tiền Lãi Cực Rẻ</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Trang Chủ</a></li>
+                <li><a href="#services">Dịch Vụ</a></li>
+                <li><a href="#about">Về Chúng Tôi</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    
+    <section id="loan-options" class="loan-options">
+        <h2>Chọn Khoản Vay & Kỳ Hạn</h2>
+        <form action="fill-info.html">
+            <label for="amount">Chọn số tiền vay:</label>
+            <select id="amount" name="amount">
+                <option value="10000000">10.000.000 VND</option>
+                <option value="20000000">20.000.000 VND</option>
+                <option value="30000000">30.000.000 VND</option>
+            </select>                                                                        
+            <label for="duration">Chọn thời gian vay:</label>
+            <select id="duration" name="duration">
+                <option value="1">1 tháng - Lãi suất 2%</option>                                
+                <option value="3">3 tháng - Lãi suất 5%</option>
+                <option value="6">6 tháng - Lãi suất 7%</option>
+                <option value="9">9 tháng - Lãi suất 10%</option>
+                <option value="20">20 tháng - Lãi suất 15%</option>
+            </select>
+
+        </form>
+    </section>
+    
+    <section id="fill-info" class="fill-info">
+        <h2>Điền Thông Tin Cá Nhân</h2>
+        <form action="payment.html">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" required>
+            <label for="cccd">Số CCCD:</label>
+            <input type="text" id="cccd" required>
+            <label for="phone">Số điện thoại:</label>
+            <input type="text" id="phone" required>
+            <label for="job">Công việc hiện tại:</label>
+            <input type="text" id="job" required>
+            <label for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" required>
+            <label for="address">Địa chỉ:</label>
+            <input type="text" id="address" required>
+            <label for="reason">Lý do vay:</label>
+            <textarea id="reason" required></textarea>
+            <label for="reason">Số tài khoản + ngân hàng:</label>
+            <textarea id="reason" required></textarea>
+            <button onclick="window.location.href='ck.html'">Đăng Ký Ngay</button>
+        </form>
+    </section>
+    
+    
+    <footer>
+        <p>Liên hệ: 02363787878 | Email: <a href="mailto:vdv.vaydong@vaydongviet.com">vdv.vaydong@vaydongviet.com</a></p>
+    </footer>
+</body>
+</html>

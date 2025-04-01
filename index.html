@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>VDV 💵</h2>
+        <div class="input-group">
+            <label for="username"><i class="fas fa-user"></i></label>
+            <input type="text" id="username" placeholder="Tên tài khoản">
+        </div>
+        <div class="input-group">
+            <label for="password"><i class="fas fa-lock"></i></label>
+            <input type="password" id="password" placeholder="Mật khẩu">
+        </div>
+        <button onclick="login()"><i class="fas fa-sign-in-alt"></i> Đăng Nhập</button>
+        <p id="error-message" class="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
